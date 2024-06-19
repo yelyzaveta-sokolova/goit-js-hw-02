@@ -2,14 +2,10 @@ function getShippingCost(country) {
 
 switch (country) {
   case 'China':
-    const chinaPrice = 100;
-    const chinaMessage = `Shipping to China will cost ${chinaPrice} credits`;
-    return chinaMessage;
+return "Shipping to China will cost 100 credits";
   break;
   case 'Chile':
-       const chilePrice = 250;
-    const chileMessage = `Shipping to China will cost ${chilePrice} credits`;
-    return chileMessage;
+    return  "Shipping to China will cost 250 credits";
     break;
   case 'Australia':
     return "Shipping to Australia will cost 170 credits";
